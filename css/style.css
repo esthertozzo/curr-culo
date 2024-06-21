@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+:root{
+    --Main: #664537;
+    --main2: #CC8A6E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: white;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+.login__button{
+    background-color: var(--Main);
+    color: white;
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    border: none;
+}
+.login__button:hover{
+    background-color: var(--main2);
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link:active{
+    color: #000;
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: var(--main2);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+
+}.navbar-brand{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.navbar-brand span{
+    font-weight: 500;
+    color: var(--Main);
+    font-size: 24px;
+}
+
+.hero__section{
+        background: #FFFFFF;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    
+}
+.hero__section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 8%;
+}
+
+.hero__section h2{
+    color: #000;
+    font-size: 3.2rem;
+    font-weight: 510;
+}
+.hero__section h5{
+    color: #000;
+    font-size: 1.1rem;
+}
+span{
+    color: var(--main2);
+}
+.botao__container{
+    border: none;
+    background: linear-gradient(90deg, rgba(102,69,55,1) 25%, rgba(204,138,110,1) 100%);
+    color: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}  
+.botao__container:hover{
+    background: linear-gradient(90deg, rgba(204,138,110,1) 25%, rgba(102,69,55,1) 100%);
+}
+body{
+    background-color: #FFFFFF;
+}
+.btn__card{
+    background-color: var(--Main);
+    border: none;
+}
+.btn__card:hover{
+    background-color: var(--main2);
+    transition: 0.3s background-color;
+}
+.cards1{
+    margin-top: 8%;
+}
+.card__artig{
+    margin-bottom: 8%;
+}
+.card{
+    border: none;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+h1{
+    color: var(--main2);
+}
+/* .section-1 {
+    padding: 20vmin 0vmin;
+  }
+  
+  .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  
+  .section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+  }
+  
+  .section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+  } */
