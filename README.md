@@ -1,1 +1,1 @@
-Currículo virtual feito para um trasbalho escolar em css e html, usando bootstrap.
+Currículo virtual feito para um trabalho escolar em css e html, usando bootstrap.
